@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   description: 'Contact Page',
   keywords: 'contact, page'
 }
+
 const ContactPage = () => {
   return (
     <>
