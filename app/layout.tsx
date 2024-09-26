@@ -18,9 +18,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={montserrat.className}>
-        <div className='flex flex-col'>
-          <span>Hola Layout!</span>
-        </div>
+        <div className='flex flex-col'></div>
         {children}
       </body>
     </html>
