@@ -11,7 +11,7 @@ interface ActiveLinkProps {
 
 const ActiveLink = ({ path, text }: ActiveLinkProps) => {
   const pathname = usePathname()
-  console.log(pathname)
+
   return (
     <Link
       href={path}
